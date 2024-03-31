@@ -1,0 +1,23 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.insertSpaces": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/*.js": true,
+    "build/*": true,
+  },
+  "search.useIgnoreFiles": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.jsx": {
+      "when": "$(basename).tsx"
+    }
+  }
+}
